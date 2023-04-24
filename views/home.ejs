@@ -1,0 +1,23 @@
+<%- include('header'); -%>
+    <div class="main">
+        <p id="h1ofhome">
+            <h3 >About Journalism</h3>
+            <%=key%>
+        </p>
+
+
+        <% kcont.forEach((item)=>{ %>
+            <h3>
+                <%=item.title%>
+            </h3>
+            <div id="shortline">
+            <p>
+                <%=item.content.substring(0, 100)+"..."%>
+            </p>
+            <a href="/posts/<%=item.title%>">Read More</a>
+        </div>
+            <% })%>
+         <a href="/compose">Compose Your Own vlog</a>
+        
+    </div>
+    <div class="footer"><%- include('footer'); -%></div>

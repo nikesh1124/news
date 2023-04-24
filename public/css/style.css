@@ -1,0 +1,113 @@
+.navbar-brand {
+    font-family: sans-serif;
+    padding-left: 6em;
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: rgb(247, 225, 245);
+}
+
+#h1ofhome{
+    margin-top: 50px;
+}
+.navbar-nav {
+    position: absolute;
+    right: 100px;
+    font-size: 1.34rem;
+}
+
+.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3 {
+    color: rgb(177, 41, 163);
+}
+
+.nav-link:hover {
+    font-weight: 500;
+    color: rgb(134, 80, 129);
+}
+
+.main {
+    padding: 30px 100px 0px 100px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #e3c5c5;
+    margin-top: 20px;
+}
+#homefooter {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #e3c5c5;
+    margin-top: 20px;
+}
+
+.footer-con {
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+#compose {
+
+    margin: 20px auto;
+    width: 80%;
+}
+
+#titlle {
+    border: 2px solid #e1dada;
+    border-radius: 6px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.addcon {
+    border: 2px solid #e1dada;
+    border-radius: 6px;
+}
+
+#some {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#btn {
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #e1dada;
+    margin-top: 20px;
+    width: 25%;
+    height: 39px;
+    border-radius: 6px;
+}
+
+h5 {
+    margin-bottom: 6px 0px 2px 0px;
+}
+
+#shortline {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+
+}
